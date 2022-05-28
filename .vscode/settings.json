@@ -1,0 +1,175 @@
+{
+	"files.associations": {
+		"*.json": "jsonc",
+		"*.c": "c",
+		"*.h": "c",
+		"*.cpp": "cpp",
+		"*.cc": "cpp",
+		"*.hh": "cpp",
+		"*.hpp": "cpp",
+		"algorithm": "c",
+		"array": "c",
+		"*.tcc": "c",
+		"cctype": "c",
+		"cerrno": "c",
+		"cfloat": "c",
+		"chrono": "c",
+		"climits": "c",
+		"clocale": "c",
+		"cmath": "c",
+		"cstdarg": "c",
+		"cstddef": "c",
+		"cstdint": "c",
+		"cstdio": "c",
+		"cstdlib": "c",
+		"ctime": "c",
+		"cwchar": "c",
+		"cwctype": "c",
+		"deque": "c",
+		"list": "c",
+		"map": "c",
+		"set": "c",
+		"string": "c",
+		"unordered_map": "c",
+		"vector": "c",
+		"exception": "c",
+		"functional": "c",
+		"memory": "c",
+		"numeric": "c",
+		"random": "c",
+		"fstream": "c",
+		"initializer_list": "c",
+		"ios": "c",
+		"iosfwd": "c",
+		"iostream": "c",
+		"istream": "c",
+		"limits": "c",
+		"mutex": "c",
+		"new": "c",
+		"ostream": "c",
+		"queue": "c",
+		"ratio": "c",
+		"sstream": "c",
+		"stdexcept": "c",
+		"streambuf": "c",
+		"system_error": "c",
+		"cinttypes": "c",
+		"tuple": "c",
+		"type_traits": "c",
+		"utility": "c",
+		"typeinfo": "c",
+		"*.hrh": "c",
+		"complex": "c",
+		"thread": "cpp",
+		"csetjmp": "cpp",
+		"csignal": "cpp",
+		"cstring": "cpp",
+		"*.ipp": "cpp",
+		"any": "cpp",
+		"atomic": "cpp",
+		"strstream": "cpp",
+		"bitset": "cpp",
+		"cfenv": "cpp",
+		"codecvt": "cpp",
+		"condition_variable": "cpp",
+		"forward_list": "cpp",
+		"unordered_set": "cpp",
+		"filesystem": "cpp",
+		"iterator": "cpp",
+		"memory_resource": "cpp",
+		"optional": "cpp",
+		"regex": "cpp",
+		"source_location": "cpp",
+		"string_view": "cpp",
+		"rope": "cpp",
+		"slist": "cpp",
+		"future": "cpp",
+		"iomanip": "cpp",
+		"shared_mutex": "cpp",
+		"typeindex": "cpp",
+		"valarray": "cpp",
+		"variant": "cpp",
+		"scoped_allocator": "cpp",
+		"qapplication": "cpp",
+		"qmatrix4x4": "cpp",
+		"qopenglbuffer": "cpp",
+		"qopenglshaderprogram": "cpp",
+		"qmouseevent": "cpp",
+		"qvector2d": "cpp",
+		"qopenglfunctions": "cpp"
+	},
+	// Syntax highlighting tried method
+	"editor.tokenColorCustomizations": {
+		"[Visual Studio Light - C++]": {
+			"comments": {
+				"foreground": "#8fd3fa",
+				"fontStyle": ""
+			},
+			"functions": {
+				"foreground": "#000000",
+				"fontStyle": "bold"
+			},
+			"keywords": {
+				"foreground": "#86044c",
+				"fontStyle": "bold"
+			},
+			"numbers": {
+				"foreground": "#0aa357",
+				"fontStyle": ""
+			},
+			"strings": {
+				"foreground": "#2d7fe9",
+				"fontStyle": ""
+			},
+			"variables": {
+				"foreground": "#000000",
+				"fontStyle": ""
+			},
+			"types": {
+				"foreground": "#0b5120",
+				"fontStyle": ""
+			}
+		}
+	},
+	// Syntax highlighting experiments
+	"editor.semanticTokenColorCustomizations": {
+		"enabled": true,
+		"[Visual Studio Light - C++]": {
+			"enabled": false,
+			"rules": {
+				"function": {
+					"foreground": "#000000",
+					"fontStyle": "bold"
+				},
+				"comment": {
+					"foreground": "#8fd3fa",
+					"fontStyle": ""
+				},
+				"enumMember": {
+					"foreground": "#0003ce",
+					"fontStyle": ""
+				},
+				"keyword": {
+					"foreground": "#86044c",
+					"fontStyle": "bold"
+				},
+				"macro": {
+					"foreground": "#a02203",
+					"fontStyle": ""
+				}
+			}
+		}
+	},
+	/*"C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: WebKit}",*/
+	"C_Cpp.clang_format_fallbackStyle": "{UseTab: Always, IndentWidth: 4, TabWidth: 4, BreakBeforeBraces: Stroustrup, AllowShortIfStatementsOnASingleLine: false, IndentCaseLabels: true, ColumnLimit: 0, AccessModifierOffset: -4, NamespaceIndentation: All, FixNamespaceComments: false}",
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"editor.formatOnSave": true,
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.wordWrapColumn": 160,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
+	"C_Cpp.errorSquiggles": "Enabled",
+	"C_Cpp.default.cppStandard": "c++17",
+	"C_Cpp.default.cStandard": "c11"
+}

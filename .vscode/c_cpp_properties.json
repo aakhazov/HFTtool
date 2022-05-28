@@ -1,0 +1,26 @@
+{
+	"version": 4,
+	"configurations": [
+		{
+			"name": "HFTtool",
+			"includePath": [
+				"${workspaceFolder}/**",
+				"${HOME}/cpp_workspace/boost",
+				"/usr/include/x86_64-linux-gnu",
+				"/usr/include/x86_64-linux-gnu/c++/7"
+			],
+			"compilerArgs": [
+				"-g",
+				"-c",
+				"-Wall"
+			],
+			"defines": [
+				"NOTHING"
+			],
+			"compilerPath": "/usr/bin/gcc",
+			"cStandard": "gnu11",
+			"cppStandard": "gnu++17",
+			"intelliSenseMode": "linux-gcc-x64"
+		}
+	]
+}

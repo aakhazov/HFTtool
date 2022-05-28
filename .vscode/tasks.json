@@ -1,0 +1,65 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "task_build",
+			"command": "sh",
+			"args": [
+				"build.sh",
+				"incremental",
+				"build"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "task_debug",
+			"command": "sh",
+			"args": [
+				"build.sh",
+				"incremental",
+				"debug"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "task_clean_build",
+			"command": "sh",
+			"args": [
+				"build.sh",
+				"clean",
+				"build"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "task_clean_debug",
+			"command": "sh",
+			"args": [
+				"build.sh",
+				"clean",
+				"debug"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"ch": "market.btcusdt.trade.detail", // string	Data belonged channel，Format：market.$symbol.trade.detail
+	"ts": 1648085258047, // long		Time of Respond Generation, Unit: Millisecond
+	"tick": {
+		"id": 150455694947, // long		global transaction ID
+		"ts": 1648085258046, // long		Latest Creation Time
+		"data": [
+			{
+				"id": 150455694947499270615441566, // integer	Unique trade id (to be obsoleted)
+				"ts": 1648085258046, // integer	timestamp (UNIX epoch time in millisecond)
+				"tradeId": 102657479083, // integer	Unique trade id (NEW)
+				"amount": 0.001226, // float	The volume of the trade (buy side or sell side)
+				"price": 42833.52, // float	The price of the trade
+				"direction": "sell" // string	direction of the trade (taker): 'buy' or 'sell'
+			}
+		]
+	}
+}

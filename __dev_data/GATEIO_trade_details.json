@@ -1,0 +1,23 @@
+{
+	"method": "trades.update",
+	"params": [
+		"BTC_USDT", // market name
+		[ // list of trade info object, refer to query response
+			{
+				"id": 3073476532,
+				"time": 1648086962.5548511,
+				"price": "42843.86",
+				"amount": "0.0098",
+				"type": "buy"
+			},
+			{
+				"id": 3073476531,
+				"time": 1648086962.5546551,
+				"price": "42837.44",
+				"amount": "0.0023",
+				"type": "buy"
+			}
+		]
+	],
+	"id": null
+}
