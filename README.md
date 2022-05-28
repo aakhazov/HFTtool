@@ -1,4 +1,4 @@
-# HFTtool
+# HFT tool
 
 I will write soon...
 
