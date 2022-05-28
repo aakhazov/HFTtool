@@ -1,4 +1,5 @@
 __obj
 *.o
 *.ini
+*.odp#
 HFTtool
