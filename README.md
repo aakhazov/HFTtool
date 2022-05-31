@@ -25,7 +25,7 @@ Just run the script **_./\_\_doc/ubuntu_18.04_setup.sh_**. It will setup Ubuntu 
 For the latest versions of Ubuntu, you need to fix the include paths in **_Makefile_** and in **_./.vscode/c_cpp_properties.json_**.
 For example, on Ubuntu 22.04, replace **_/usr/include/x86_64-linux-gnu/c++/7_** with **_/usr/include/x86_64-linux-gnu/c++/11_**
 
-> **Note: Oracle VM VirtualBox does not support OpenGL 3. So you need to disable 3D acceleration in order to emulate it programmatically.**
+> **Note: If you are using VM, only Oracle VM VirtualBox does not support OpenGL 3. Therefore, you need to disable 3D acceleration in order to emulate it programmatically.**
 
 ### Usage
 
