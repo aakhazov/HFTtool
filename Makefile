@@ -16,7 +16,7 @@ LDFLAGS :=
 SHARED_LIBS	:= -lz -lpthread -lssl -lcrypto
 SHARED_LIBS	+= -lboost_thread -lboost_system -lboost_iostreams
 SHARED_LIBS	+= -lboost_coroutine -lboost_chrono -lboost_date_time
-SHARED_LIBS	+= -lglfw -lGLU -lGL -lXrandr -lXxf86vm -lX11 -lrt -ldl
+SHARED_LIBS	+= -lglfw -lGL -lXrandr -lXxf86vm -lX11 -lrt -ldl
 
 STATIC_LIBS := 
 
