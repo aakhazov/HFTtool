@@ -21,7 +21,8 @@ I will write soon...
 
 ### Build
 
-Just run the script **_./\_\_doc/ubuntu_18.04_setup.sh_**. It will setup Ubuntu and build HFTtool even if the OS is newly installed.
+Just run the script **_./\_\_doc/ubuntu_18.04_setup.sh_**. It will setup Ubuntu and build HFTtool even if the OS is newly installed. Also read this script for details about the build.
+
 For the latest versions of Ubuntu, you need to fix the include paths in **_Makefile_** and in **_./.vscode/c_cpp_properties.json_**.
 For example, on Ubuntu 22.04, replace **_/usr/include/x86_64-linux-gnu/c++/7_** with **_/usr/include/x86_64-linux-gnu/c++/11_**
 
