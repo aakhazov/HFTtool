@@ -33,7 +33,7 @@ sudo apt install -y ./vscode.deb
 cd ~/cpp_workspace
 mkdir ~/cpp_workspace/_apps
 cd ~/cpp_workspace/_apps
-git clone https://github.com/xazov/HFTtool.git
+git clone https://github.com/aakhazov/HFTtool.git
 
 # Build HFTtool
 cd ~/cpp_workspace/_apps/HFTtool
