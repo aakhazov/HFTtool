@@ -7,6 +7,7 @@ sudo dnf install -y libicu-devel
 sudo dnf install -y bzip2-libs
 sudo dnf install -y zlib-devel
 sudo dnf install -y libXxf86vm-devel
+sudo dnf install -y libXrandr-devel
 
 # Install Boost
 wget -O boost_1_79_0.tar.gz https://sourceforge.net/projects/boost/files/boost/1.79.0/boost_1_79_0.tar.gz/download
