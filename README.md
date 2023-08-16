@@ -2,7 +2,7 @@
 
 This is a tool for high-frequency trading analysis. It connects to many exchanges and receives live trade detail data. Developed as a basis for creating technical analysis tools for finding arbitrage and short-term trading opportunities. HFTtool can also be used as the basis for trading bots.
 
-<img src="https://github.com/xazov/HFTtool/blob/main/__doc/HFTtool.gif">
+<img src="https://github.com/aakhazov/HFTtool/blob/main/__doc/HFTtool.gif">
 
 ### Features
 
@@ -12,7 +12,7 @@ This is a tool for high-frequency trading analysis. It connects to many exchange
 
 ### Architecture
 
-<img src="https://github.com/xazov/HFTtool/blob/main/__doc/HFTtool.png">
+<img src="https://github.com/aakhazov/HFTtool/blob/main/__doc/HFTtool.png">
 
 ### Dependencies
 
